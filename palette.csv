@@ -1,0 +1,9 @@
+category,role,regular,faded,dimmed
+main,hero,#353795,#c8b7d9,#323371
+main,primary,#ef8872,#fec7ba,#d35235
+main,highlight,#fdd310,#fff1b1,#a98e14
+main,green,#7cbfa4,#c4e6d9,#518d75
+main,water,#84cbce,#d5f1f2,#5dadb0
+backup,backup1,#f4a422,#ffd28a,#c2831f
+backup,backup2,#5db75a,#a6dea4,#4e914c
+backup,backup3,#e54225,#fb8c78,#ad3b27
