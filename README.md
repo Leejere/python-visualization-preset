@@ -26,9 +26,9 @@ To use my palette and functions, simply include the following the following line
 The codes are clearly annotated and explained in the various Jupyter Notebooks files here.
 
 - [Setting the Palette](https://github.com/Leejere/python-visualization-preset/blob/main/set_colors.ipynb) explains the **structure of my palette system** and documents how it gets created in detail.
-- [Convert colors]([python-visualization-preset/convert_colors.ipynb at main · Leejere/python-visualization-preset (github.com)](https://github.com/Leejere/python-visualization-preset/blob/main/convert_colors.ipynb)) sets up the underlying converting functions among RGB, HSL and hex. These functions are useful because my palette system relies on tweaking **saturation** and **lightness** to create variations.
-- [Create color ramps]([python-visualization-preset/create_color_ramps.ipynb at main · Leejere/python-visualization-preset (github.com)](https://github.com/Leejere/python-visualization-preset/blob/main/create_color_ramps.ipynb)) documents the functions to create **discrete** color ramps based off of one or two theme color(s).
-- [Customized Matplotlib Color Maps]([python-visualization-preset/customized_matplotlib_cmaps.ipynb at main · Leejere/python-visualization-preset (github.com)](https://github.com/Leejere/python-visualization-preset/blob/main/customized_matplotlib_cmaps.ipynb)) documents the functions to create **continuous** color maps (matplotlib) based off of one or two theme color(s).
+- [Convert colors](https://github.com/Leejere/python-visualization-preset/blob/main/convert_colors.ipynb)) sets up the underlying converting functions among RGB, HSL and hex. These functions are useful because my palette system relies on tweaking **saturation** and **lightness** to create variations.
+- [Create color ramps](https://github.com/Leejere/python-visualization-preset/blob/main/create_color_ramps.ipynb)) documents the functions to create **discrete** color ramps based off of one or two theme color(s).
+- [Customized Matplotlib Color Maps](https://github.com/Leejere/python-visualization-preset/blob/main/customized_matplotlib_cmaps.ipynb)) documents the functions to create **continuous** color maps (matplotlib) based off of one or two theme color(s).
 
 #### 4. Functions
 
