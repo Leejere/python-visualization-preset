@@ -3,6 +3,8 @@ from matplotlib import pyplot as plt
 from matplotlib import cycler
 from matplotlib.ticker import FuncFormatter
 
+import colors
+
 plt.style.use('seaborn-whitegrid')
 
 mpl.rcParams['figure.titlesize'] = 12
