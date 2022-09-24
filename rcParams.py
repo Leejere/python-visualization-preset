@@ -29,7 +29,7 @@ mpl.rcParams['ytick.labelsize'] = 8.5
 
 mpl.rcParams['lines.linewidth'] = 0.6
 
-mpl.rcParams['axes.prop_cycle'] = cycler(color = [palette_hero, palette_primary, palette_hero_faded, palette_water])
+mpl.rcParams['axes.prop_cycle'] = cycler(color = [colors.palette_hero, colors.palette_primary, colors.palette_hero_faded, colors.palette_water])
 mpl.rcParams['figure.subplot.hspace'] = 0.3
 mpl.rcParams['figure.subplot.wspace'] = 0.1
 
