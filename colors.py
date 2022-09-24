@@ -277,6 +277,17 @@ palette['dimmed'] = ratio_table.apply(lambda x: make_dimmed(x['regular'], x['s_d
 # FINAL ADJUSTMENT
 palette.loc[('main', 'hero'), 'faded'] = '#c8b7d9'
 
+# OUTPUT
+palette = palette.reset_index().rename({"level_1": "role"}, axis = 1).drop(['level_0'], axis = 1).set_index(['role'])
+# Names of individual colors & color series
+for column in palette.columns:
+    globals()[f"palette_{column}"] = palette[column].values
+    for row in palette.index: 
+        if column == "regular":
+            globals()[f"palette_{row}"] = palette.loc[row, column]
+        else:
+            globals()[f"palette_{row}_{column}"] = palette.loc[row, column]
+
 # Make discrete color ramps
 
 # A function that creates a monochromatic color ramp

@@ -43,3 +43,13 @@ hsl_to_rgb(hue, # numeric, 0-360
           )
 ```
 
+2. Converting from RGB to hex. Takes three values: R, G, and B. Outputs a string starting with "#" which the hex of the color.
+
+```python
+hsl_to_rgb(red, # numeric, 0-255
+           green, # numeric, 0-255
+           blue # numeric, 0-255
+          )
+```
+
+3. Converting from HSL to hex. Takes three values: Takes three values: H, S, and L. Outputs a string starting with "#" which the hex of the color.
