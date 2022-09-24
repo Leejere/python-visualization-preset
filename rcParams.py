@@ -10,7 +10,7 @@ plt.style.use('seaborn-whitegrid')
 mpl.rcParams['figure.titlesize'] = 12
 
 mpl.rcParams['axes.titlesize'] = 10
-mpl.rcParams['axes.labelsize'] = 9
+mpl.rcParams['axes.labelsize'] = 9.2
 # mpl.rcParams['axes.labelcolor'] = "gray"
 
 mpl.rcParams['axes.linewidth'] = 1.5
@@ -23,9 +23,9 @@ mpl.rcParams['grid.linewidth'] = 0.4
 mpl.rcParams['grid.color'] = 'gray'
 
 mpl.rcParams['xtick.labelcolor'] = 'gray'
-mpl.rcParams['xtick.labelsize'] = 8.5
+mpl.rcParams['xtick.labelsize'] = 8
 mpl.rcParams['ytick.labelcolor'] = 'gray'
-mpl.rcParams['ytick.labelsize'] = 8.5
+mpl.rcParams['ytick.labelsize'] = 8
 
 mpl.rcParams['lines.linewidth'] = 0.6
 
