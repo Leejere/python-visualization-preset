@@ -33,6 +33,12 @@ mpl.rcParams['axes.prop_cycle'] = cycler(color = [colors.palette_hero, colors.pa
 mpl.rcParams['figure.subplot.hspace'] = 0.3
 mpl.rcParams['figure.subplot.wspace'] = 0.1
 
+mpl.rcParams['legend.fontsize'] = 8.5
+mpl.rcParams['legend.title_fontsize'] = 10
+mpl.rcParams['legend.labelcolor'] = "gray"
+mpl.rcParams['legend.frameon'] = True
+mpl.rcParams['legend.framealpha'] = 0.4
+
 def thousands(x, pos):
     return "{:1.0f}K".format(x*1e-3)
 
