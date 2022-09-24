@@ -11,7 +11,7 @@ mpl.rcParams['figure.titlesize'] = 12
 
 mpl.rcParams['axes.titlesize'] = 10
 mpl.rcParams['axes.labelsize'] = 9
-mpl.rcParams['axes.labelcolor'] = 'gray'
+# mpl.rcParams['axes.labelcolor'] = "gray"
 
 mpl.rcParams['axes.linewidth'] = 1.5
 mpl.rcParams['axes.spines.top'] = False
